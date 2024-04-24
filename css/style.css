@@ -1,0 +1,141 @@
+.bold {
+    font-weight: 700;
+}
+
+.bg-pink {
+    background-color: #F2E9E4;
+}
+
+.navbar {
+    height: 150px;
+    margin-bottom: 80px;
+}
+
+.social {
+    width: 134px;
+    padding: 0;
+}
+
+.social img{
+    height: 24px;
+    width: auto;
+    padding: 1px 0;
+}
+
+.nav-item {
+    font-weight: 700;
+}
+
+.container {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.hero-text {
+    width: 80%;
+    padding: 100px 0 70px;
+
+    font-weight: 400;
+}
+
+.btn-dark {
+    font-weight: 600;
+}
+
+.card {
+    border: unset;
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+.mini-table {
+    padding: 42px 30px 32px 85px;
+}
+
+.lets-work-bg {
+    height: 90% !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-prev {
+    left: -80px;
+}
+
+.carousel-control-next {
+    right: -80px;
+}
+
+.image-b {
+    width: 20%;
+    height: auto;
+}
+
+.footer {
+    padding: 85px 0;
+}
+
+.lets-work {
+    position: absolute;
+}
+
+/* Mobile */
+
+@media screen and (width <= 1024px) {
+    .container {
+        font-size: 18px;
+    }
+
+    .hero-text {
+        padding: 0;    
+    }
+
+}
+
+
+@media screen and (width <= 576px) {
+    .lets-work {
+        position: relative;
+    }
+
+    .mini-table {
+        padding: 8%;
+    }
+
+    .lets-work-bg {
+        height: 100% !important;
+    }
+
+    .carousel-control-prev {
+        left: -40px;
+    }
+    
+    .carousel-control-next {
+        right: -40px;
+    }
+
+    .image-b {
+        padding: 1%;
+    }
+
+    .footer {
+        padding: 0;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .navbar {
+        height: auto;
+        padding: 20px 0;
+    }
+}
